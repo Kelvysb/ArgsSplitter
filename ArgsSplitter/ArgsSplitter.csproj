@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Kelvys B.</Authors>
+    <Copyright>2019 ₢ Kelvys B.</Copyright>
+    <PackageLicenseFile>COPYING.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Kelvysb/ArgsSplitter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Kelvysb/ArgsSplitter</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Command line Arguments splitter processing</PackageTags>
+    <PackageReleaseNotes>
+
+</PackageReleaseNotes>
+    <Description>Command line Arguments splitter, processing and validator.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".\COPYING.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
