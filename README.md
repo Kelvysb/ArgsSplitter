@@ -31,16 +31,16 @@ Settings:
 Param with sub-param:
 ```Json
 {
-    ""args"": 
+    "args": 
     [
         {
-            ""commands"": [""""],
-            ""params"": [{""key"": ""PARAM1""}],
-            ""args"": 
+            "commands": [""],
+            "params": [{"key": "PARAM1"}],
+            "args": 
             [ 
                 {
-                    ""commands"": [""-test""],
-                    ""params"": [{""key"": ""PARAM2""}]
+                    "commands": ["-test"],
+                    "params": [{"key": "PARAM2"}]
                 }
             ]
         }                                                        
@@ -51,14 +51,14 @@ Param with sub-param:
 Param with other optional param:
 ```Json
 {
-    ""args"": [
+    "args": [
         {
-            ""commands"": [""""],
-            ""params"": [{""key"": ""PARAM1""}]
+            "commands": [""],
+            "params": [{"key": "PARAM1"}]
         },
         {
-            ""commands"": [""-test""],
-            ""params"": [{""key"": ""PARAM2"", ""optional"": true}]
+            "commands": ["-test"],
+            "params": [{"key": "PARAM2", "optional": true}]
         }
     ]
 }
@@ -67,14 +67,14 @@ Param with other optional param:
 Param with other void param:
 ```Json
 {
-    ""args"": [
+    "args": [
         {
-            ""commands"": [""""],
-            ""params"": [{""key"": ""PARAM1""}]
+            "commands": [""],
+            "params": [{"key": "PARAM1"}]
         },
         {
-            ""commands"": [""-test""],
-            ""params"": [{""key"": ""PARAM2"", ""void"": true}]
+            "commands": ["-test"],
+            "params": [{"key": "PARAM2", "void": true}]
         }
     ]
 }
