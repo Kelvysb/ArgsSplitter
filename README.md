@@ -11,7 +11,7 @@ PM> Install-Package ArgsSplitter -Version 1.0.0
 
 Usage Example:
 
-```
+```C#
  ASplitter splitter = new ASplitter(@"{
                                             ""args"": [
                                                 {
