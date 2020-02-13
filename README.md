@@ -29,7 +29,7 @@ Usage Example:
 Settings:
 
 Param with sub-param:
-```
+```Json
 {
     ""args"": 
     [
@@ -49,7 +49,7 @@ Param with sub-param:
 ```
 
 Param with other optional param:
-```
+```Json
 {
     ""args"": [
         {
@@ -65,7 +65,7 @@ Param with other optional param:
 ```
 
 Param with other void param:
-```
+```Json
 {
     ""args"": [
         {
@@ -81,7 +81,7 @@ Param with other void param:
 ```
 
 All settings options:
-```
+```Json
 {
   "args": [
     {
